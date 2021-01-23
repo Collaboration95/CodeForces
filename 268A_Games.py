@@ -8,9 +8,16 @@ for i in range(0,N):
 
 for i in range(0,len(l)):
     l[i] = int(l[i])
-for i in range(1,len(N),2):
-    print(l[i])
-    for j in range(0,len(N)):
-        if l[i]==l[j] and j%2==0:
+# for i in range(1,len(N),2):
+#     print(l[i])
+#     for j in range(0,len(N)):
+#         if l[i]==l[j] and j%2==0:
+#             count+=1
+# print(count)
+for i in range(1,len(l),2):
+    # print(l[i])
+    for k in range(0,len(l),2):
+        if l[i]==l[k]:
             count+=1
-print(count)
+
+print(k)
